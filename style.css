@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(180deg, #e8eaef 0%, #0069d9 100%);
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #f8f8f8;
+    background-image: linear-gradient(180deg, #e8eaef 0%, #0069d9 100%);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    background-image: linear-gradient(180deg, #1552d7 0%, rgba(217, 22, 22, 0.5) 100%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    background-image: linear-gradient(180deg, #e8eaef 0%, #0069d9 100%);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f6f8;
+    background-image: linear-gradient(180deg, #e8eaef 0%, #0069d9 100%);
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    background-image: linear-gradient(180deg, #e8eaef 0%, #0069d9 100%);
+}
+
+tr:hover {
+    background-color: #ddd;
+}
